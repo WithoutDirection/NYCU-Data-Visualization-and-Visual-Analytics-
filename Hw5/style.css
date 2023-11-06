@@ -1,0 +1,20 @@
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+  
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: flex-start;
+  
+  }
+
+  .chart {
+    display: flex;
+    flex-direction:row;
+  
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: flex-start;
+  
+  }

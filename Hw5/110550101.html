@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Stacked Bar Charts</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+        <script src="110550101.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>University Rankings</h1>
+        <div class="flex-container">
+            <div>
+                <button id="sortOverallAsc">Sort by Overall Score  (Asc)</button>
+                <button id="sortTeachingAsc">Sort by Teaching Score  (Asc)</button>
+                <button id="sortResearchAsc">Sort by Research Score  (Asc)</button>
+                <button id="sortCitationsAsc">Sort by Citations Score  (Asc)</button>
+                <button id="sortIndustry_incomeAsc">Sort by Industry_income Score  (Asc)</button>
+                <button id="sortInternational_outlookAsc">Sort by International_outlook Score  (Asc)</button>
+                
+            </div>
+            <div>
+                <button id="sortOverallDesc">Sort by Overall Score (Desc)</button>
+                <button id="sortTeachingDesc">Sort by Teaching Score (Desc)</button>
+                <button id="sortResearchDesc">Sort by Research Score (Desc)</button>
+                <button id="sortCitationsDesc">Sort by Citations Score (Desc)</button>
+                <button id="sortIndustry_incomeDesc">Sort by Industry_income Score (Desc)</button>
+                <button id="sortInternational_outlookDesc">Sort by International_outlook Score (Desc)</button>
+            </div>
+
+        </div>      
+        
+        <div class = "chart">
+            <div id="stacked_bar_chart"></div>
+            <div id="scores_info">
+                <p>Select bar for detail information</p>
+            </div>
+        </div>
+        
+        <button id="prevPageButton">Previous Page</button>
+        <button id="nextPageButton">Next Page</button>
+        <div id="paginationInfo"></div>
+        
+    </body>
+</html>
